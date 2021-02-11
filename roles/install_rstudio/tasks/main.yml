@@ -95,7 +95,7 @@
       autoremove: true
       autoclean: true
 
-  - name: Avoid insalling sentry-cli
+  - name: Avoid installing sentry-cli
     lineinfile:
       dest: rstudio/dependencies/common/install-common
       regexp: ./install-sentry-cli
